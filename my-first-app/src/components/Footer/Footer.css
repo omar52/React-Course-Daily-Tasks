@@ -21,6 +21,11 @@
   list-style: none;
   line-height: 20px;
   font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.footer .links ul li:hover {
+  color: var(--hovering-color);
 }
 
 @media (max-width: 992px) {
@@ -29,8 +34,7 @@
     justify-content: center;
     margin-bottom: 37px;
     padding-bottom: 10px;
-        border-bottom: 1px solid #ccc;
-
+    border-bottom: 1px solid #ccc;
   }
   .footer .links {
     align-items: center;
