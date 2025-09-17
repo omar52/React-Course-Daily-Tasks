@@ -1,12 +1,12 @@
 .hero-section {
   margin-top: 116px;
+  margin-bottom: 189px;
 }
 .hero-section .row {
   display: flex;
   align-items: center;
 }
-.hero-section .row .text-content {
-}
+
 .hero-section .row .text-content h2 {
   font-size: 64px;
   line-height: 100%;
@@ -16,26 +16,17 @@
 .hero-section .row .text-content .buttons {
   margin-top: 25px;
 }
-.hero-section .row .text-content .buttons .artwork {
-}
-.hero-section .row .text-content .buttons .artist {
-}
-.hero-section .row img {
-}
 
-
-
-@media (max-width:992px){
+@media (max-width: 992px) {
   .hero-section .row .text-content h2 {
-  font-size: 40px;
-  line-height: 100%;
-  font-weight: 600;
-  color: var(--primary-color);
-  text-align: center;
-}
-  .hero-section .row .buttons{
-
-  text-align: center;
-  margin-bottom: 40px;
-}
+    font-size: 40px;
+    line-height: 100%;
+    font-weight: 600;
+    color: var(--primary-color);
+    text-align: center;
+  }
+  .hero-section .row .buttons {
+    text-align: center;
+    margin-bottom: 40px;
+  }
 }

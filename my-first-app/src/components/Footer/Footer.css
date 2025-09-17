@@ -1,0 +1,42 @@
+.footer {
+}
+.footer .links {
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+  margin-bottom: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.footer .links h3 {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 0;
+}
+.footer .links ul {
+  padding: 0;
+}
+.footer .links ul li {
+  list-style: none;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+@media (max-width: 992px) {
+  .footer .row .logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 37px;
+    padding-bottom: 10px;
+        border-bottom: 1px solid #ccc;
+
+  }
+  .footer .links {
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+  }
+  .footer .links ul {
+    text-align: center;
+  }
+}

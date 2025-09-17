@@ -7,4 +7,5 @@
 body{
   background-color: var(--secondary-color);
   font-family: var(--main-font);
+  color: var(--primary-color);
 }
