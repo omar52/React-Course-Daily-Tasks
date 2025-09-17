@@ -1,0 +1,24 @@
+form a,
+.hero-section .buttons a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--secondary-color);
+  padding: 14px 70px;
+  background-color: var(--primary-color);
+  border-radius: 12px;
+  transition: all 0.3s;
+  margin-right: 5px;
+}
+form a:hover,
+form a,
+.hero-section .buttons a:hover {
+  color: var(--hovering-color);
+}
+
+@media (max-width:992px){
+.hero-section .buttons a {
+ 
+  padding: 14px 50px;
+
+}}
