@@ -1,9 +1,10 @@
 import "./MainButton.css";
-const MainButton = () => {
+
+const MainButton = ({ className, children }) => {
   return (
-    <>
-      <a href="#">Log in</a>
-    </>
+    <a href="#" className={`main-btn ${className || ""}`}>
+      {children}
+    </a>
   );
 };
 

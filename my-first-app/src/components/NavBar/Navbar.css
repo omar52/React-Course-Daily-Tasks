@@ -33,21 +33,18 @@
 }
 
 @media (max-width: 992px) {
-
   .navbar ul {
     gap: 23px;
     margin-top: 15px;
   }
 
-.navbar form a {
+  .navbar form a {
     margin-top: 14px;
-}
+  }
 }
 @media (max-width: 1500px) {
-
   .navbar ul {
     gap: 20px;
     padding-inline: 10px;
   }
-
 }

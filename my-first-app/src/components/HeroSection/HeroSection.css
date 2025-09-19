@@ -7,6 +7,9 @@
   align-items: center;
 }
 
+.hero-section .row .text-content {
+  margin-bottom: 50px;
+}
 .hero-section .row .text-content h2 {
   font-size: 64px;
   line-height: 100%;

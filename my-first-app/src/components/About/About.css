@@ -17,6 +17,7 @@
   line-height: 100%;
   margin-bottom: 40px;
   font-weight: lighter;
+  font-family: var(--secondary-font);
 }
 
 .about .community .upper {

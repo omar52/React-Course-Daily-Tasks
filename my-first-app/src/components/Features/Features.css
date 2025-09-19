@@ -1,0 +1,68 @@
+.feature-section {
+  margin-bottom: 143px;
+  text-align: center;
+}
+.features-header {
+  margin-bottom: 40px;
+}
+.features-header h2 {
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+  font-family: var(--secondary-font);
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.features-header p {
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+.feature-section .features .feature {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.feature-section .features .feature > img:hover {
+  cursor: pointer;
+}
+.feature-section .features .feature > img:hover {
+  transition: transform 0.5s ease;
+  transform: scale(1.05);
+}
+.feature-section .features .feature .card-footer {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.feature-section .features .feature .card-footer .person {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 6px;
+}
+.feature-section .features .feature .card-footer .person .name {
+  font-size: 18px;
+}
+
+.feature-section .features .feature .card-footer .feedback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.feature-section .features .feature .card-footer .feedback .heart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.feature-section .features .feature .card-footer .feedback .eye {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}

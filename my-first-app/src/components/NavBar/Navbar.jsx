@@ -1,4 +1,4 @@
-import MainButton from "../Buttons/MainButton"
+import MainButton from "../Buttons/MainButton";
 import "./Navbar.css";
 function Home() {
   return (
@@ -52,7 +52,7 @@ function Home() {
               </li>
             </ul>
             <form className="d-flex" role="search">
-              <MainButton />
+              <MainButton className="main-btn">Log in</MainButton>
             </form>
           </div>
         </div>
