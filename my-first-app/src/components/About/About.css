@@ -18,6 +18,8 @@
   margin-bottom: 40px;
   font-weight: lighter;
   font-family: var(--secondary-font);
+      color: var(--text-color);
+
 }
 
 .about .community .upper {

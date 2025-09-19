@@ -14,7 +14,7 @@ const Join = () => {
           welcomes you with open arms.
         </p>
       </div>
-      <MainButton />
+      <MainButton className="join-btn">See Artwork</MainButton>
     </div>
   );
 };

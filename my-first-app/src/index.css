@@ -2,6 +2,7 @@
   --primary-color: #1d7293;
   --secondary-color: #ffffff;
   --hovering-color: #edc272;
+  --text-color: #073141;
   --icon-color: #68818b;
   --card-color: #1d72931a;
   --main-font: 'font-family: "Inter", sans-serif';
@@ -12,3 +13,4 @@ body {
   font-family: var(--main-font);
   color: var(--primary-color);
 }
+
