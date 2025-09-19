@@ -1,0 +1,66 @@
+.tutorial-section {
+  text-align: center;
+}
+.tutorial-section .wrapper {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.tutorial-section .wrapper .text {
+  margin-bottom: 40px;
+  max-width: 1000px;
+  margin-inline: auto;
+}
+.tutorial-section .wrapper .text > h2 {
+  font-size: 24px;
+  font-family: var(--secondary-font);
+  letter-spacing: 1px;
+}
+.tutorial-section .wrapper .text > p {
+  font-size: 18px;
+  margin-inline: auto;
+  padding-inline: 30px;
+  color: var(--text-color);
+}
+
+.tutorial-section .wrapper .row .card {
+  background-color: var(--card-color);
+  border: none;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  border-radius: 0px 30px 0px 30px;
+  transition: all 0.3s ;
+}
+.tutorial-section .wrapper .row .card:hover {
+transform: scale(1.05);
+}
+.tutorial-section .wrapper .row .card img {
+border-radius: 0 30px 0 30px;
+}
+
+.tutorial-section .wrapper .row .card .card-text {
+  text-align: justify;
+  color: var(--text-color);
+}
+.tutorial-section .wrapper .row .card .card-text h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+      word-spacing: -3px;
+   
+  letter-spacing: normal; /* ensures no extra letter spacing */
+}
+
+
+.tutorial-section .wrapper .row .card .card-text p {
+  font-size: 20px;
+  line-height: 100%;
+  .card-title {
+  word-spacing: normal;   /* resets to default */
+  letter-spacing: normal; /* ensures no extra letter spacing */
+}
+
+}
